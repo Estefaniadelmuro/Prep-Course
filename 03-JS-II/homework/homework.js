@@ -7,10 +7,10 @@ function obtenerMayor(x, y) {
   // Tu código:
   if (x<y){
     var mayor = y,
-    console.log ('%d', y)
+    console.log (mayor)
   } else if (x>y){
     var mayor = x,
-    console.log ('%d', x)
+    console.log (mayor)
   } else {
     return x || y;
   }
